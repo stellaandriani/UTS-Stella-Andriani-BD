@@ -1,0 +1,9 @@
+<section id="case">
+            <img src="tk.jpg" alt="Me" width="300" height="250">   
+            <div class="kolom">
+                <p class="deskripsi">TK</p>
+                <h2><p>Gembala Baik I</h2></p>
+                <p>Pertama kalinya saya masuk sekolah</p>
+                <p>Rasanya sangat menyenangkan bisa bertemu teman dan bermain bersama</p>
+            </div>
+        </section>

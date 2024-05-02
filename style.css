@@ -1,0 +1,198 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    width: 1400px;
+    height: 30px;
+    background-image: url(header2.jpg);
+    background-size: cover;
+    padding: 15px 20px;
+}
+
+body {
+    width: 1300px;
+    background-image: url(bg3.jpg);
+    background-size: cover;
+}
+
+.wrapper {
+    width: 1300px;
+    margin: auto;
+}
+
+.logo a {
+    font-size: 45px;
+    font-weight: bold;
+    font-family: courier;
+    color: #E3E1D9;
+}
+
+.menu {
+    float: left;
+}
+
+nav {
+    width: 1400px;
+    display: flex;
+    line-height: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 0px 16px 0px 19px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-transform:lowercase
+}
+
+section {
+    margin: auto;
+    display: flex;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width : 1300px;
+    text-align: center;
+}
+
+.kolom .deskripsi {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 55px;
+    margin-bottom: 20px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+h3 {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0px;
+    padding: 0px;
+    font-size: large;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 55px;
+    margin-bottom: -50px;
+    color: black;
+    width: 100%;
+    line-height: 50px;
+}
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: -100px;
+    color: black;
+
+    
+}
+
+a.tbl-biru {
+    background: #EADBC8;
+    border-radius: 25px;
+    margin-top: 0px;
+    padding: 1px 9px 1px 9px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-biru:hover {
+    background: #F5DAD2;
+    text-decoration: none;
+}
+
+a.tbl-pink {
+    background: #F5DAD2;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+a.tbl-pink:hover{
+    background: #EADBC8;
+    text-decoration: none;
+}
+
+p {
+    margin: 10px 0px 10px 0px;
+    padding: 2px 0px 2px 0px;
+}
+
+b{
+    margin: 10px 0px 10px 0px;
+    padding: 2 0px 2px 0px;
+}
+
+ul li a, 
+.dropdown {
+    display: inline-block;
+    text-align: center;
+    padding: 1px 10px;
+    text-decoration: none;
+}
+
+.ul li a:hover, 
+.dropdown:hover .dropdown {
+    display: block;
+    background-color: #E1ACAC;
+    transition: all 0.5s ease;
+}
+
+.ul li:hover .dropdown {
+    display: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 100px;
+    box-shadow: 11px 10px 15px 10px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a  {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+.dropdown-content a:hover {
+    background-color: white;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
